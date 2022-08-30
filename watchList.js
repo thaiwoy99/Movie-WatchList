@@ -26,7 +26,7 @@ function displayIt (ele){
      let html = " "
      for (let i of IDS) {
           
-     const res =  await fetch(`http://www.omdbapi.com/?apikey=61abc5b&i=${i}`)
+     const res =  await fetch(`https://www.omdbapi.com/?apikey=61abc5b&i=${i}`)
      const data = await res.json()
      
      html +=  displayIt(data)
