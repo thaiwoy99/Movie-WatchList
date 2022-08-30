@@ -35,7 +35,7 @@ searchBtn.addEventListener("click", callIt)
                 let cont =" "
                 for (let i of Movie)
             {
-            const rep = await fetch(`http://www.omdbapi.com/?apikey=61abc5b&i=${i.imdbID}`)
+            const rep = await fetch(`https://www.omdbapi.com/?apikey=61abc5b&i=${i.imdbID}`)
             const dat = await rep.json()
             
             arr.push(dat.imdbID)
