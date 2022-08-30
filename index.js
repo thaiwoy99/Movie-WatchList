@@ -23,7 +23,7 @@ searchBtn.addEventListener("click", callIt)
     isClicked = true
  console.log(isClicked)
         try {
-        const res = await fetch(`http://www.omdbapi.com/?apikey=61abc5b&s=${inputValue.value}`)
+        const res = await fetch(`https://www.omdbapi.com/?apikey=61abc5b&s=${inputValue.value}`)
         
         
         const data = await res.json() 
