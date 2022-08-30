@@ -13,3 +13,6 @@ There is a button in the Watchlist.html which enables a user to remove movie fro
 - grid
 - Javascript
 - localStorage
+
+Live URL : https://movie-watchlist-23dea6.netlify.app/
+
