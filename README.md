@@ -5,10 +5,11 @@ There is a button in the index.html which enables a user to add/ remove movie fr
 There is a button in the Watchlist.html which enables a user to remove movie from their Watchlist
 
 
+
 ### Built with
 
 - HTML
 - CSS custom properties
-- Grid
--JavaScript
--local storage
+- grid
+- Javascript
+- localStorage
